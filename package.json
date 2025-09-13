@@ -1,0 +1,17 @@
+{
+  "name": "mpcfill-cropper",
+  "version": "1.0.0",
+  "description": "API to crop mpcfill images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Taxiera",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^5.0.0",
+    "canvas": "^3.2.0"
+  }
+}
